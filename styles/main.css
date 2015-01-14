@@ -1,0 +1,117 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/*
+Colors
+*/
+/*
+  Fonts
+*/
+/*
+  Break Points
+*/
+/*
+  Sizes
+*/
+/*
+  Body
+*/
+body {
+  margin-top: 30px;
+  background: #db674e;
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 14px; }
+
+.form-container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
+  .form-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (max-width: 850px) {
+    .form-container {
+      max-width: 400px; } }
+
+.form {
+  float: left;
+  display: block;
+  margin-right: 3.53311%;
+  width: 30.97793%; }
+  .form:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 850px) {
+    .form {
+      float: left;
+      display: block;
+      margin-right: 11.40524%;
+      width: 100%; }
+      .form:last-child {
+        margin-right: 0; }
+      .form .button {
+        margin: 10px auto;
+        width: 100%; } }
+
+input,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  margin-top: 8px;
+  margin-bottom: 13px;
+  border: 2px solid white;
+  background-color: #db674e;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  font-family: "Raleway";
+  font-size: 14px; }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+    border: 2px solid #78342b;
+    box-shadow: none; }
+
+input {
+  height: 44px; }
+
+textarea {
+  height: 110px; }
+
+select {
+  border-radius: 0;
+  border-color: #ccc; }
+
+.button {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 146px;
+  border: 2px solid #fff;
+  background-color: #db674e;
+  width: 100px;
+  height: 44px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-size: 17px; }
+  .button p {
+    margin: 0 auto;
+    padding-top: 10px; }
+
+/*# sourceMappingURL=main.css.map */
