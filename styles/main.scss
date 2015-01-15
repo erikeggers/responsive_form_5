@@ -3,9 +3,9 @@ $visual-grid: false;
 $gutter: em(47px);
 @import 'neat/neat';
 
-/*
+/* ==========================================================================
 Colors
-*/
+========================================================================== */
 $flamingo: #db674e;
 $iron: #ccc;
 $white: #fff;
@@ -15,23 +15,25 @@ $font-color: $white;
 $border-color: $iron;
 $border-color-hover: $dark-flamingo;
 
-/*
-  Fonts
-*/
+/* ==========================================================================
+Fonts
+========================================================================== */
 $body-font: 'Raleway';
-/*
-  Break Points
-*/
+
+/* ==========================================================================
+Breakpoints
+========================================================================== */
 $tablet: new-breakpoint(max-width 850px 4);
 
-/*
-  Sizes
-*/
+/* ==========================================================================
+Sizes
+========================================================================== */
 $input-width: 100%;
+$top-margin: 30px;
 
-/*
-  Body
-*/
+/* ==========================================================================
+Body
+========================================================================== */
 body {
   margin-top: 30px;
   background: $background-color;
@@ -67,7 +69,7 @@ textarea, {
   margin-top: 8px;
   margin-bottom: 13px;
   border: 2px solid white;
-  background-color: $flamingo;
+  background-color: $background-color;
   padding: 10px;
   width: $input-width;
   color: white;
@@ -106,7 +108,7 @@ select {
   height: 44px;
   vertical-align: middle;
   text-align: center;
-  color: white;
+  color: $white;
   font-size: 17px;
 
 
